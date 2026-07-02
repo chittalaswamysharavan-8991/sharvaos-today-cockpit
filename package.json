@@ -1,0 +1,11 @@
+{
+  "name": "sharvaos-today-cockpit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SharvaOS Today Cockpit static HTML widget for Notion embed.",
+  "scripts": {
+    "dev": "npx serve .",
+    "deploy": "vercel deploy",
+    "deploy:prod": "vercel deploy --prod"
+  }
+}

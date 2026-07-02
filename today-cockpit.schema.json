@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "required_fields": [
+    "schema_version",
+    "component",
+    "date",
+    "timezone",
+    "last_updated",
+    "day_status",
+    "freshness",
+    "source_status",
+    "logs_summary",
+    "pending_commits",
+    "active_project",
+    "open_loops",
+    "next_action"
+  ],
+  "freshness_status_values": [
+    "fresh",
+    "pending",
+    "stale",
+    "missing"
+  ],
+  "update_rule": "Keep today-cockpit.html stable. Update today.json daily or whenever current-day data changes.",
+  "completion_gate": [
+    "HTML renders without external libraries.",
+    "today.json loads successfully.",
+    "Fallback snapshot appears if live data fails.",
+    "Every major card shows source/freshness status.",
+    "Hosted URL embeds inside Notion.",
+    "Daily JSON update changes the embedded view without replacing the Notion embed link.",
+    "Mobile and desktop Notion views are tested.",
+    "Registry entry exists."
+  ]
+}
