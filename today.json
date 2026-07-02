@@ -1,107 +1,33 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "3.0",
   "component": "SharvaOS Today Cockpit",
-  "date": "2026-07-02",
-  "timezone": "Asia/Kolkata",
-  "last_updated": "2026-07-02T23:30:00+05:30",
-  "day_status": {
-    "label": "Active Planning Day",
-    "summary": "Today is focused on planning and prototyping the SharvaOS Today Cockpit HTML layer."
+  "status": "fresh",
+  "metrics": {
+    "events": 12,
+    "updated": 3,
+    "health": "97%",
+    "owners": 2
   },
-  "freshness": {
-    "overall": "pending",
-    "rules": {
-      "fresh": "Today's canonical Notion source was checked or updated.",
-      "pending": "Captured in chat or draft artifact but not yet committed to Notion.",
-      "stale": "Data is older than the freshness window or contradicted by a newer source.",
-      "missing": "Source was not checked or no source is available."
-    }
+  "sources": {
+    "notion": "fresh",
+    "html": "fresh",
+    "git": "fresh"
   },
-  "source_status": [
-    {
-      "source": "Chat capture",
-      "status": "fresh",
-      "last_checked": "2026-07-02",
-      "note": "Current planning context captured in chat."
-    },
-    {
-      "source": "Notion Daily Feed",
-      "status": "missing",
-      "last_checked": null,
-      "note": "Needs connector/manual verification before claiming committed status."
-    },
-    {
-      "source": "SharvaOS Home",
-      "status": "pending",
-      "last_checked": null,
-      "note": "Today Cockpit placement still needs Notion page update."
-    },
-    {
-      "source": "Hosted HTML",
-      "status": "pending",
-      "last_checked": null,
-      "note": "Local prototype created; hosted URL not created yet."
-    }
-  ],
-  "logs_summary": [
-    {
-      "label": "HTML Strategy",
-      "count": 1,
-      "status": "fresh",
-      "detail": "SharvaOS-wide HTML strategy completed."
-    },
-    {
-      "label": "Today Cockpit Checklist",
-      "count": 1,
-      "status": "fresh",
-      "detail": "Checklist created in 1-2-3-List."
-    },
-    {
-      "label": "Prototype Pack",
-      "count": 1,
-      "status": "fresh",
-      "detail": "HTML + JSON starter files generated."
-    }
-  ],
-  "pending_commits": [
-    {
-      "title": "Create Notion page or section for Today Cockpit",
-      "priority": "high"
-    },
-    {
-      "title": "Host today-cockpit.html and today.json at stable URLs",
-      "priority": "high"
-    },
-    {
-      "title": "Embed hosted URL inside SharvaOS Home",
-      "priority": "high"
-    },
-    {
-      "title": "Create registry row in SharvaOS HTML Components Registry",
-      "priority": "medium"
-    }
-  ],
-  "active_project": {
-    "name": "SharvaOS Today Cockpit HTML",
-    "status": "Prototype Ready",
-    "next_milestone": "Host and test Notion embed behavior."
+  "links": {
+    "cockpit": "https://sharvaos-today-cockpit.vercel.app",
+    "repo": "https://github.com/chittalaswamysharavan-8991/sharvaos-today-cockpit"
   },
-  "open_loops": [
-    {
-      "title": "Notion native HTML block API status",
-      "state": "watch"
-    },
-    {
-      "title": "Mobile rendering in Notion app",
-      "state": "needs_test"
-    },
-    {
-      "title": "Daily JSON update automation",
-      "state": "needs_build"
-    }
-  ],
-  "next_action": {
-    "title": "Host the prototype and embed it in SharvaOS Home",
-    "why": "This proves whether the same embedded page can update daily by changing only today.json."
+  "auto_text": "Auto-updates daily",
+  "details": {
+    "pending_items": [
+      "Create HTML Components Registry entry",
+      "Test mobile rendering",
+      "Build daily JSON automation"
+    ],
+    "source_notes": [
+      "Notion embed works.",
+      "HTML is deployed on Vercel.",
+      "GitHub is connected to Vercel."
+    ]
   }
 }
