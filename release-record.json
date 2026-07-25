@@ -1,0 +1,13 @@
+{
+  "product": "SharvaOS Live Control Room",
+  "version": "1.0.0",
+  "release_date": "2026-07-26",
+  "production_url": "https://sharvaos-live-control-room.vercel.app",
+  "vercel_project_id": "prj_ZKdhtVQBwemUGBm1muQd2jaBzLib",
+  "deployment_id": "dpl_B3Cup7VpHXxRGru6w9kBnQFFeR26",
+  "supabase_project_ref": "vhzzugeeadaijkzrvowx",
+  "notion_hub": "https://app.notion.com/p/3a84c9f740e381fd8358e5ae9c1cb032",
+  "library_source_path": "/SharvaOS/BuildOS/SharvaOS Live Control Room/SharvaOS-Live-Control-Room-v1.0.0-source.zip",
+  "verdict": "APPROVED_WITH_RECORDED_LIMITATIONS",
+  "pending_proof": "One production magic-link sign-in and authenticated RLS/realtime verification"
+}
