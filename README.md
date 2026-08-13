@@ -1,4 +1,12 @@
-# SharvaOS Today Cockpit — Vercel Ready
+# SharvaOS Today Cockpit — frozen predecessor
+
+> **Lifecycle:** Frozen. [SharvaOS-Pulse](https://github.com/chittalaswamysharavan-8991/SharvaOS-Pulse) is the canonical SharvaOS daily front door. This static cockpit remains available as historical/reference material; it is not an active second Today system.
+
+Do not add features or resume routine `today.json` updates here. Move reusable presentation ideas to SharvaOS-Pulse through a reviewed change. No GitHub workflow or other writer automation was present when this boundary was established on 2026-08-13.
+
+The previous deployment notes below are retained as historical operating context; they are not an instruction to create a parallel production surface.
+
+## Historical implementation
 
 This folder is ready to deploy to Vercel as a static site.
 
@@ -30,22 +38,18 @@ https://sharvaos-today-cockpit.vercel.app
 
 Use that URL in Notion with `/embed`.
 
-## Daily update rule
+## Historical update rule
 
 Do not edit HTML daily.
 
-Update only:
+The predecessor was designed to update only:
 
 ```text
 today.json
 ```
 
-Then redeploy or push to Git if using GitHub integration.
+That routine is now stopped. Do not redeploy or push daily data updates.
 
-## Recommended long-term setup
+## Superseded long-term setup
 
-1. Put this folder into a GitHub repo.
-2. Connect the repo to Vercel.
-3. Edit `today.json` daily.
-4. Push changes.
-5. Notion embed keeps the same URL.
+Use SharvaOS-Pulse for active Daily/Today work. Keep this repository frozen until repository settings can be changed to archived after consumer verification.

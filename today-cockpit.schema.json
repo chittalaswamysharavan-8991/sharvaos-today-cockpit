@@ -21,7 +21,7 @@
     "stale",
     "missing"
   ],
-  "update_rule": "Keep today-cockpit.html stable. Update today.json daily or whenever current-day data changes.",
+  "update_rule": "Routine data updates are stopped. This repository is a frozen predecessor; SharvaOS-Pulse owns the active Today experience.",
   "completion_gate": [
     "HTML renders without external libraries.",
     "today.json loads successfully.",

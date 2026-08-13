@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "repository": "chittalaswamysharavan-8991/sharvaos-today-cockpit",
+  "lifecycle": "frozen_predecessor",
+  "canonical_successor": "chittalaswamysharavan-8991/SharvaOS-Pulse",
+  "accepts_feature_work": false,
+  "data_updates": "stopped",
+  "archive_after_consumer_verification": true,
+  "boundary_recorded_at": "2026-08-13",
+  "writer_automation_observed_in_repository": false
+}

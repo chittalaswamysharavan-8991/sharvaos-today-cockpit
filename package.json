@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "npx serve .",
     "deploy": "vercel deploy",
-    "deploy:prod": "vercel deploy --prod"
+    "deploy:prod": "vercel deploy --prod",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm test"
   }
 }
